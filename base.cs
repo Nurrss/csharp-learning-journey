@@ -1,6 +1,7 @@
-int countdown = 10;
-while(countdown > 0)
+for(int i = 1; i < 6; i++)
 {
-    Console.WriteLine(countdown);
-    countdown--;
+    for(int j = 1; j < 6; j++)
+    {
+        Console.WriteLine(i + " x " + j + " = " + (i * j));
+    }   
 }
