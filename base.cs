@@ -1,3 +1,6 @@
-for(int i = 1; i < 11; i++){
-    Console.WriteLine(i);
+int countdown = 10;
+while(countdown > 0)
+{
+    Console.WriteLine(countdown);
+    countdown--;
 }
