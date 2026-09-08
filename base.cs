@@ -1,11 +1,13 @@
-int[] numbers = {12, 45, 7, 89, 34, 2};
-int m = 0;
-foreach(int num in numbers)
+class Program
 {
-    if(m < num)
+    static void Main()
     {
-        m = num;
+        Console.WriteLine("Квадрат: " + Square(9));
     }
+
+    static int Square(int x)
+{
+    return x * x;
+}
 }
 
-Console.WriteLine("Максимум: " + m);
