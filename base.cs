@@ -1,7 +1,8 @@
-for(int i = 1; i < 6; i++)
+int[] numbers = {4, 8, 15, 16, 23, 42};
+int sum = 0;
+foreach (int num in numbers)
 {
-    for(int j = 1; j < 6; j++)
-    {
-        Console.WriteLine(i + " x " + j + " = " + (i * j));
-    }   
+    sum += num;
 }
+
+Console.WriteLine("Сумма: " + sum);
