@@ -1,8 +1,11 @@
-int[] numbers = {4, 8, 15, 16, 23, 42};
-int sum = 0;
-foreach (int num in numbers)
+int[] numbers = {12, 45, 7, 89, 34, 2};
+int m = 0;
+foreach(int num in numbers)
 {
-    sum += num;
+    if(m < num)
+    {
+        m = num;
+    }
 }
 
-Console.WriteLine("Сумма: " + sum);
+Console.WriteLine("Максимум: " + m);
